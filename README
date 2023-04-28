@@ -3,4 +3,4 @@ Instructions:
     This will create a runs folder that contains scf, nscf, vmc_1rdm_noJ directories
 2. Run the lowdin script with the command:
    python3 ./lowdin9.py pwscf runs/nscf/pwscf_output/ runs/vmc_1rdm_noJ/ vmc_1rdm_noJ 0
-   The script is currently set to quit() after the printing of the created dictionaries, you can remove this to encounter the error where the unitary transformation attempts to be applied based off of the number of kpoints extracted from the nscf directory and not on the number of supercell twists.
+   The script is currently set to quit() after the printing of the created dictionaries. You can remove this to encounter the error where the unitary transformation attempts to be applied based off of the number of kpoints extracted from the nscf directory and not on the number of supercell twists.
